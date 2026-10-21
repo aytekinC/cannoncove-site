@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cannon Cove – Play free</title>
+<meta name="description" content="Cannon Cove: Physics Smash. Aim the cannon, knock every crate off the pier, free the stowaways. Free on iPhone and iPad.">
+<meta property="og:title" content="Cannon Cove: Physics Smash">
+<meta property="og:description" content="Aim, fire, knock every crate off the pier. What's in the crate?">
+<meta property="og:image" content="https://aytekinc.github.io/cannoncove-site/go_card.jpg">
+<meta property="og:url" content="https://aytekinc.github.io/cannoncove-site/go.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-itunes-app" content="app-id=6824943876">
+<link rel="icon" href="icon.png">
+<style>
+  /* Link-in-bio page for TikTok / Instagram / YouTube profiles. Self-contained (no site CSS), mobile first. */
+  :root { --sea1: #0b3a63; --sea2: #2a93c8; --gold: #ffd54a; --ink: #2b1a0e; --card: rgba(255,255,255,.12); --line: rgba(255,255,255,.22); }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body { background: linear-gradient(180deg, var(--sea1), var(--sea2)); background-attachment: fixed; color: #fff;
+    font: 17px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: max(20px, env(safe-area-inset-top)) 16px 32px; }
+  main { width: 100%; max-width: 440px; min-width: 0; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  main > * { max-width: 100%; }
+  .icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 6px 20px rgba(0,0,0,.35); }
+  h1 { margin: 4px 0 0; font-size: 1.5rem; letter-spacing: .01em; text-align: center; }
+  .tag { margin: 0; opacity: .92; text-align: center; }
+  .video { width: 100%; aspect-ratio: 9 / 16; max-height: 52vh; border-radius: 18px; overflow: hidden; background: #0b3a63;
+    box-shadow: 0 8px 28px rgba(0,0,0,.35); }
+  .video video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .btn { width: 100%; display: flex; align-items: center; gap: 14px; padding: 14px 18px; border-radius: 16px;
+    text-decoration: none; color: var(--ink); background: var(--gold); font-weight: 800; font-size: 1.08rem;
+    box-shadow: 0 4px 0 #b8860b, 0 8px 18px rgba(0,0,0,.25); transition: transform .08s; }
+  .btn:active { transform: translateY(2px); box-shadow: 0 2px 0 #b8860b; }
+  .btn small { display: block; font-weight: 600; font-size: .82rem; opacity: .8; }
+  .btn svg { flex: 0 0 28px; }
+  .btn.alt { background: var(--card); color: #fff; border: 1px solid var(--line); box-shadow: none; }
+  .btn.soon { opacity: .55; pointer-events: none; }
+  .row { width: 100%; display: flex; gap: 10px; }
+  .row a { flex: 1; text-align: center; padding: 10px; border-radius: 12px; background: var(--card); border: 1px solid var(--line);
+    color: #fff; text-decoration: none; font-weight: 700; font-size: .95rem; }
+  .hint { margin: 0; padding: 10px 14px; border-radius: 12px; background: rgba(0,0,0,.25); font-size: .9rem; text-align: center; }
+  .hint[hidden] { display: none; }
+  footer { margin-top: 10px; font-size: .8rem; opacity: .75; text-align: center; }
+  footer a { color: #fff; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="Cannon Cove app icon">
+  <h1>Cannon Cove: Physics Smash</h1>
+  <p class="tag">Aim. Fire. Knock every crate off the pier.<br>What's in the crate?</p>
+  <div class="video"><video src="go_loop.mp4" poster="go_poster.jpg" autoplay muted loop playsinline preload="metadata"></video></div>
+
+  <a id="ios" class="btn" href="#"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.1-1.2 2.9-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.4-.9-2.4-4zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4z"/></svg>
+    <span>Download on the App Store<small>Free · iPhone &amp; iPad</small></span></a>
+  <a id="play" class="btn alt" href="#"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M3.6 2.3c-.3.3-.4.7-.4 1.2v17c0 .5.1.9.4 1.2l9.6-9.7-9.6-9.7zm10.6 10.7 2.7 2.7-11.4 6.5 8.7-9.2zm0-2L5.5 1.8l11.4 6.5-2.7 2.7zm3.9-1.9 3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-3-2.9 3-2.9z"/></svg>
+    <span id="play-label">Get it on Google Play<small id="play-note">Android</small></span></a>
+  <a id="web" class="btn alt" href="#"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+    <span>Play in your browser<small id="web-note">No download</small></span></a>
+
+  <p id="inapp" class="hint" hidden>App Store not opening? Tap ••• (top right) and choose <b>Open in browser</b>, or search <b>Cannon Cove</b> in the App Store.</p>
+  <div class="row">
+    <a id="tiktok" href="https://www.tiktok.com/@cannoncove">TikTok</a>
+    <a id="insta" href="https://www.instagram.com/cannoncove">Instagram</a>
+    <a id="yt" href="https://www.youtube.com/@cannoncove">YouTube</a>
+  </div>
+  <footer>Made by a solo developer in Türkiye · <a href="index.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></footer>
+</main>
+<script>
+// ---- Edit these when a store goes live (see marketing/PLAYBOOK.md, "go.html") -------------------
+const CONFIG = {
+  appStoreId: "6824943876",
+  // App Store Connect > Analytics > Acquisition > Campaigns > "Generate campaign link": copy the pt= value.
+  providerToken: "",
+  iosLive: false,         // true the day App Store review approves 1.0.0 (until then: "In App Store review")
+  playPackage: "com.aytekinc.cannoncove",
+  playLive: false,        // true once the production release is public on Google Play
+  webUrl: "",             // Poki / CrazyGames / itch.io page once the web build is live
+};
+// ---------------------------------------------------------------------------------------------
+// ?src=tiktok|reels|shorts|reddit|discord|press... names the campaign (App Store "ct", Play "utm_source").
+const params = new URLSearchParams(location.search);
+const src = (params.get("src") || "bio").replace(/[^a-z0-9_-]/gi, "").slice(0, 40) || "bio";
+let ios = `https://apps.apple.com/app/apple-store/id${CONFIG.appStoreId}?mt=8&ct=${encodeURIComponent(src)}`;
+if (CONFIG.providerToken) ios += `&pt=${encodeURIComponent(CONFIG.providerToken)}`;
+const play = `https://play.google.com/store/apps/details?id=${CONFIG.playPackage}&referrer=${encodeURIComponent(`utm_source=${src}&utm_medium=social&utm_campaign=organic`)}`;
+const elIos = document.getElementById("ios"), elPlay = document.getElementById("play"), elWeb = document.getElementById("web");
+if (CONFIG.iosLive) { elIos.href = ios; }
+else { elIos.classList.add("soon"); elIos.querySelector("small").textContent = "In App Store review: coming very soon"; }
+// TikTok / Instagram / Facebook in-app browsers on iOS can dead-end on App Store links: offer Safari.
+const inApp = /Instagram|FBAN|FBAV|TikTok|musical_ly|BytedanceWebview|Bytedance/i.test(navigator.userAgent || "");
+if (inApp && /iPhone|iPad|iPod/i.test(navigator.userAgent || "")) { document.getElementById("inapp").hidden = false; }
+if (CONFIG.playLive) { elPlay.href = play; } else { elPlay.classList.add("soon"); document.getElementById("play-note").textContent = "Coming soon"; }
+if (CONFIG.webUrl) { elWeb.href = CONFIG.webUrl + (CONFIG.webUrl.includes("?") ? "&" : "?") + "utm_source=" + src; }
+else { elWeb.classList.add("soon"); document.getElementById("web-note").textContent = "Coming soon"; }
+// Put the visitor's own store first.
+const ua = navigator.userAgent || "";
+if (/Android/i.test(ua) && CONFIG.playLive) { elPlay.classList.remove("alt"); elIos.classList.add("alt"); elIos.parentNode.insertBefore(elPlay, elIos); }
+</script>
+</body>
+</html>
